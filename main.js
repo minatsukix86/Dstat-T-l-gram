@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const { Client } = require('ssh2');
 
 
-const token = '7486450825:AAFRB_wfLATyrSz325nWKsenBRGoYo7tZK8';
+const token = 'tokentlg';
 const bot = new TelegramBot(token, { polling: true });
 
 const SSH_HOST = "// host ip";
